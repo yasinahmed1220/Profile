@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-area{
+    width: 265px;
+    height: 50px;
+}
+.logo-area h1{
+    font-size: 4 0px;
+    font-weight: bold;
+   color: rgba(23, 172, 172, 1);
+   margin-top: 13px;
+}
+
+.nav li a{
+    font-size:20px ;
+    font-weight: 700;
+    font-style: inter;
+    color: black;
+    margin-top: 10px;
+    transition: 0.40s;
+}
+.nav li a:hover{
+    background: #6cc8ef;
+    color: black;
+    border-radius: 5px;
+}
+
+
+.login-nav li a{
+    margin-top: 14px;
+    color: rgba(44, 117, 117, 1);
+}
+.login-nav li a:hover{
+    background:none;
+    color: rgba(44, 117, 117, 1);
+    text-decoration: underline;
+}
+.login-nav li:nth-child(2) a:hover{
+    background: rgba(44, 117, 117, 1);
+    color: white;
+}
+.header{
+    width: 100%;
+
+}
+.home-img{
+    width: 100%;
+    position: relative;
+}
+ .img1{
+    width:50%;
+    height: 810px;
+    float: left;
+}
+.img2{
+    width:50%;
+    height: 810px;
+    float: right;
+}
+.sub1{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    top: 313px;
+    z-index: -1;
+
+}
+.img-paven{
+    height: 600px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+
+.home-area{
+    width: 700px;
+    position: absolute;
+    top: 200px;
+}
+.home-area form input{
+    padding: 10px;
+    border: 2px solid rgb(1, 209, 185)
+}
+.home-area h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgba(0, 126, 126, 1);
+}
+.home-area a{
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-left: 60%;
+    margin-top: 20px;
+
+}
+
+
+.udema-item a{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+}
+.flex-tra{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.udema-item{
+    margin: 20px auto 20px ;
+}
+/*end udem css*/
+
+/*start top course css*/
+
+.top-courses-1{
+    background: linear-gradient(rgb(250, 253, 253),rgb(206, 251, 251));
+    margin-top: 10px;
+
+}
+.left-pop h1{
+    color: rgba(0, 73, 73, 1);
+    display: block;
+}
+.top-courses{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex-wrap: wrap;
+
+
+}
+.item-1 {
+    margin-bottom: 10px;
+}
+.item-1 select{
+    border: none;
+    padding: 5px;
+    color: rgba(23, 140, 140, 1);
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    outline: none;
+    background: transparent;
+
+}
+
+.item-1  span{   
+    color: rgba(23, 140, 140, 1);
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+.item-1 b{
+    color: rgb(11, 67, 67);
+    font-size: 15px;
+}
+.item{
+    position: relative;
+    border: 1px solid rgb(9, 6, 6);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(31, 51, 54);
+}
+.item span:nth-child(1){
+    background: #e70c0c;
+    color: white;
+    position: absolute;
+    top: 10x;
+    padding: 10px
+}
+.item span{
+    font-weight: 500;
+}
+.more-course{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 80px 10px 0;
+}
+.detai{
+    padding: 7px;
+}
+.detai h6{
+    color:rgba(10, 74, 74, 1);
+    ;
+    font-size: 20px;
+}
+.detai b{
+    font-weight: bold;
+    color: black;
+
+}
+.detaih5, b{
+    font-weight: bold;
+    color: rgb(108, 27, 27);
+  
+}
+.link {
+   text-align: center;
+   
+}
+.link a{
+    margin-top: 10px;
+}
+
+
+.item-course a{
+    color: rgba(44, 117, 117, 1);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.item-course a:hover{
+    color: rgb(5, 97, 97);
+   
+    text-decoration:underline;
+}
+
+.owl-next{
+    padding: 40px;
+   
+}
+
+.item{
+    margin:0px 50px 0px 50px;
+}
+.owl-nav .owl-next{
+    font-size: 80px !important;
+    position: absolute;
+    bottom: 220px;
+    right: 0;
+
+}
+
+.owl-nav .owl-prev{
+  
+    display: none;
+   
+}
+/*end top courses css*/
+
+/*start certification css*/
+
+
+
+
+/*end certification css*/
+
+
+/*start certification css*/
+.instructed{
+    margin-top: 25px;
+}
+.instructed-area h1{
+    color: rgba(0, 73, 73, 1);
+    margin: 0px;
+}
+.instructed-area p{
+    margin: 0px;
+    color: gray;
+    font-weight: 700;
+}
+.instructed-link a{
+    background: rgb(33, 218, 218);
+
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.instructed-link a:hover{
+    background: #004049;
+    color: white;
+}
+.tutors-guide{
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+.Tutors-tag h1{
+    color: rgba(0, 73, 73, 1);
+}
+.meet-tutors{
+    margin-top: 50px;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.profile{
+    width: 250px;
+    height: 250px;
+
+   
+
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 3px 2px 14px gray;
+ 
+}
+
+.his-text{
+    display: none;
+  
+   
+}
+.profile:hover .his-text{
+    display: block;
+  
+}
+
+.his-text h6{
+    color: gray;
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+}
+.his-text p{
+    color :#03435f;
+    font-weight: bold;
+    margin: 0;
+}
+.his-text a{
+    display: inline-block;
+    font-weight: bold;
+    color: rgba(6, 143, 143, 0.848);
+}
+.his-text a:hover{
+    color: rgb(0, 148, 148);
+}
+.contack a{
+    background: rgb(33, 218, 218);
+    color: white;
+    padding: 6px;
+    margin-top: 5px;
+}
+.contack a:hover{
+    background: #004049;
+    color: white;
+}
+
+/*end certification css*/
+
+
+/*start bottom css*/
+.home-bottom{
+    width: 100%;
+    
+    background: rgba(24, 75, 75, 1);
+
+}
+.bottom-header{
+    height: 300px;
+    display: flex;
+    align-items: start;
+    align-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.bottom-item ul li{
+    list-style-type: none;
+
+}
+.bottom-item ul li a{
+  
+    color:aliceblue;
+    text-decoration: none;
+}
+.bottom-item ul li a:hover{
+    color: rgb(144, 245, 238);
+    background: none;
+}
+
+
+.bottom-header-link{
+    height: 300px;
+    display: flex;
+    align-items: end;
+    align-content: center;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.bottom-link ul li a{
+    color: aliceblue;
+    margin-right: 20px;
+
+}
+.bottom-link .nav{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.bottom-link ul li{
+    list-style-type:none;
+}
+.bottom-link ul li a{
+   
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;    
+}
+
+/*end bottom css*/
+
+
+
+
+
+
+
+/*start login css*/
+.login{
+    width:100%;
+    max-width: 600px;
+    padding: 15px;
+    position: absolute;
+    top: 200px;
+    background: rgb(10, 189, 189);
+}
+
+.login h4{
+    text-align: center;
+
+}
+.login form input{
+    border-radius: 0px;
+    margin-bottom: 5px;
+
+}
+.login form label{
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.login form a{
+    font-size: 17px;
+   
+    text-decoration: none;
+    color: #073345;
+}
+.login form a:hover{
+    text-decoration: underline;
+    color: #0053da;
+}
+.login form button{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+
+
+/*end login css*/
+
+

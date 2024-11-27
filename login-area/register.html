@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/8cc8a7209f.js" crossorigin="anonymous"></script> 
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/boys1st_n-removebg.png">
+     <link rel="stylesheet" href="../css/owl.carousel.min.css">
+     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <link rel="stylesheet" href="../style.css">
+     <link rel="stylesheet" href="../responsive.css" class="">
+    <title>web practice</title>
+    
+</head>
+<body>
+
+
+<header>
+<div class="container">
+    <div class="row">
+        
+        <div class="col-xl-3 ">
+            <div class="logo-area">
+                <h1>CourseMania</h1>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="navbar ">
+                <ul class="nav  me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Tutors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contack</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-xl-3">
+                <div class="login-area">
+                    <ul class=" nav me-auto mb-2  mb-lg-0 login-nav">
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Register</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
+</header>
+<!--end nav area-->
+
+
+<!--start header home area-->
+
+<section>
+    <div class="header">
+        <div class="home-img">
+             <img class="img1" src="../home-photo/Group1639.png" alt="">
+             <img class="sub1" src="../home-photo/Subtract.png" alt="">
+             <img class="img2" src="../home-photo/Group1641.png" alt="">
+             <img class="img-paven" src="../home-photo/Illustration - pavan 691.png" alt="">
+        </div>
+     
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5  offset-xl-3">
+                <div class="login ">
+                    <h4>Sign Up</h4>
+                    <form action="" method="">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your Username" class="form-control" required>
+                       
+                        <label for="email">Email</label>
+                        <input id="email" type="email" class="form-control" placeholder="example@gmail.com" required>
+
+                        <label for="Pass">Password</label>
+                        <input id="pass" type="password" class="form-control" placeholder="Enter your Password" required>
+                      
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                    </form>
+            </div>
+         </div>
+        </div>
+    </div>  
+    
+    </section>
+    
+    <!--end header home area-->
+    
+
+
+
+
+
+
+
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+})
+</script>
+</body>
+</html>
